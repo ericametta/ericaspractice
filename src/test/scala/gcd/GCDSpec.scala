@@ -45,7 +45,7 @@ class GCDSpec extends AnyFreeSpec with ChiselScalatestTester {
         dut.output.expectDequeueSeq(seq1)
         dut.clock.step(10)
         dut.output.expectDequeueSeq(seq2)
-      }.join()
+      }.join() 
 
     }
   }
